@@ -29,7 +29,7 @@ This is a web application that allows users to log in, access a dashboard, and n
 - If using Git, clone the project repository using:
 
   ```bash
-  git clone https://docs.github.com/articles/cloning-a-repository
+  git clone https://github.com/Deepdeychaki/Project-Stock-Broker
   ```
 
 - Otherwise, download the project files as a ZIP archive.
