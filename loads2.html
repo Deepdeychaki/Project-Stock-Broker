@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loads</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./loads.css">
+</head>
+<body>
+    <div id="dashboard">
+        <div id="side-nav">
+            <div id="nav-1">
+                <div id="logo">
+                    <a href="./dashboard2.html"><img src="./images/Logo.png" alt="logo"></a>
+                </div>
+                <div id="navigation">
+                    <div id="nav-links">
+                        <a href="./loads2.html"><img src="./images/box-arrow-in-down.jpg" alt="">Loads</a>
+                    </div>
+                    <div id="nav-links">
+                        <a href="./statements2.html"><img src="./images/journal-text.jpg" alt="">Statements</a>
+                    </div>
+                    <div id="nav-links">
+                        <a href="#"><img src="./images/arrow-down-up.jpg" alt="">Transactions</a>
+                    </div>
+                </div>
+            </div>
+            <div id="nav-2">
+                <a href="./login.html"><img src="./images/box-arrow-right.jpg" alt="">Logout</a>
+            </div>
+        </div>
+        <div id="main">
+            <div id="frame-9">
+                <div id="frame-2">
+                    <div id="btn-id">
+                        <button id="btn">Company Name <img src="./images/ArrowDropDown.jpg" alt=""></button>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Company 1</a></li>
+                            <li><a href="#">Company 2</a></li>
+                            <li><a href="#">Company 3</a></li>
+                        </ul>
+                    </div>
+                    <div id="btn-id">
+                        <button id="btn">Account 1 <img src="./images/ArrowDropDown.jpg" alt=""></button>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Account 2</a></li>
+                            <li><a href="#">Account 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="frame-8">
+                    <img src="./images/Frame 10.png" alt="">
+                    <div id="frame-11">
+                        <p id="avail-balance">Available balance</p>
+                        <p id="balance">₹9999,99,99,999</p>
+                    </div>
+                </div>
+            </div>
+            <div id="latest-text">
+                <p id="latest">Your purchased stocks are dsiplayed here</p>
+            </div>
+            <div id="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Stock Code</th>
+                            <th>Current Value</th>
+                            <th>Number of Stocks</th>
+                            <th>Purchase</th>
+                            <th>Sell</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AAPL</td>
+                            <td id="stock-1"><p>₹</p></td>
+                            <td>3</td>
+                            <td><button id="sell-btn">Purchase</button></td>
+                            <td><button id="sell-btn">Sell</button></td>
+                        </tr>
+                        <tr>
+                            <td>HOG</td>
+                            <td id="stock-2">₹21,337</td>
+                            <td>4</td>
+                            <td><button id="sell-btn">Purchase</button></td>
+                            <td><button id="sell-btn">Sell</button></td>
+                        </tr>
+                        <tr>
+                            <td>HPQ</td>
+                            <td id="stock-3">₹21,337</td>
+                            <td>2</td>
+                            <td><button id="sell-btn">Purchase</button></td>
+                            <td><button id="sell-btn">Sell</button></td>
+                        </tr>
+                        <tr>
+                            <td>INTC</td>
+                            <td id="stock-4">₹5,1015.69</td>
+                            <td>1</td>
+                            <td><button id="sell-btn">Purchase</button></td>
+                            <td><button id="sell-btn">Sell</button></td>
+                        </tr>
+                        <tr>
+                            <td>AMD</td>
+                            <td id="stock-5">₹5,1015.69</td>
+                            <td>5</td>
+                            <td><button id="sell-btn">Purchase</button></td>
+                            <td><button id="sell-btn">Sell</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./StockPrice.js"></script>
+</body>
+</html>
